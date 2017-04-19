@@ -76,4 +76,4 @@ sudo mv GeoLiteCity.dat DionaeaFR/DionaeaFR/static
 echo -e "${RED}Moving and editing Settings...${NC}"
 sudo cp /opt/DionaeaFR/DionaeaFR/settings.py.dist /opt/DionaeaFR/DionaeaFR/settings.py
 cd /opt/DionaeaFR/DionaeaFR
-echo -e "${GREEN}Now just edit the file in this folder named settings.py and change sqlite DB location...${NC}"
+echo -e "${RED}Now just edit the file: /opt/DionaeaFR/DionaeaFR/settings.py and change sqlite DB location...${NC}"
