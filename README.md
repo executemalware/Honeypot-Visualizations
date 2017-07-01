@@ -16,4 +16,7 @@ Now, open your browser and point it to localhost:8000
 
 You should now see your Dionaea honeypot stats.
 
+start_dfr.sh
+============
+This script will run the above commands (create the pid, collectstatic and then start the server). The easiest way start DionaeaFR on a regular basis.
 
