@@ -1,7 +1,7 @@
 This repository will have some useful scripts and information that I use for visualizing the data from my Dionaea and Cowrie honeypots.
 
-DionaeaFR
-=========
+DionaeaFR Scripts
+=================
 
 dfr.sh
 ------
@@ -23,3 +23,12 @@ start_dfr.sh
 ------------
 This script will run the above commands (create the pid, collectstatic and then start the server). The easiest way start DionaeaFR on a regular basis.
 
+ELK Scripts
+===========
+
+create-cowrie-mapings.sh
+------------------------
+This script will create an Elasticsearch index named cowrie with 1 shard and 0 replicas. It also sets up mappings for the eventid and timestamp fields.
+
+bulk_index.sh
+-------------
