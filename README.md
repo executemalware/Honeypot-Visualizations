@@ -11,8 +11,11 @@ After the script runs, you will have to edit the file /opt/DionaeaFR/DionaeaFR/s
 
 At this point, you should be able to start DionaeaFR from the /opt/DionaeaFR folder. 
 `sudo mkdir /var/run/dionaeafr`
+
 `sudo python manage.py collectstatic`
+
   (Answer yes when prompted)
+
 `sudo python manage.py runserver 0.0.0.0:8000 &`
 
 Now, open your browser and point it to localhost:8000
