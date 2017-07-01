@@ -10,6 +10,7 @@ The file named dfr.sh is a script that was originally posted to my blog at http:
 After the script runs, you will have to edit the file /opt/DionaeaFR/DionaeaFR/settings.py and change the path to point to your SQLite database file.
 
 At this point, you should be able to start DionaeaFR from the /opt/DionaeaFR folder. 
+
 `sudo mkdir /var/run/dionaeafr`
 
 `sudo python manage.py collectstatic`
