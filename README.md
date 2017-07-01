@@ -1,7 +1,10 @@
 This repository will have some useful scripts and information that I use for visualizing the data from my Dionaea and Cowrie honeypots.
 
+DionaeaFR
+=========
+
 dfr.sh
-======
+------
 The file named dfr.sh is a script that was originally posted to my blog at http://www.executemalware.com by R1ckyz1 . I've made a few modifications and reposted it here. This script will install DionaeaFR and all of it's dependencies. It will take about an hour to complete.
 
 After the script runs, you will have to edit the file /opt/DionaeaFR/DionaeaFR/settings.py and change the path to point to your SQLite database file.
@@ -17,6 +20,6 @@ Now, open your browser and point it to localhost:8000
 You should now see your Dionaea honeypot stats.
 
 start_dfr.sh
-============
+------------
 This script will run the above commands (create the pid, collectstatic and then start the server). The easiest way start DionaeaFR on a regular basis.
 
