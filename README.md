@@ -32,3 +32,7 @@ This script will create an Elasticsearch index named cowrie with 1 shard and 0 r
 
 bulk_index.sh
 -------------
+This script uses the bulk API to prepend some information to each line in the Cowrie JSON file. Then it imports the data to the Cowrie Elasticsearch index. Assuming that you have multiple JSON files in a folder named cowrie, you can use the following command ijn a terminal window to loop through all of the JSON files in a folder and process them with the bulk_index.sh script:
+
+for JSON in cowrie/*.*; do bulk_index.sh $JSON; done
+
