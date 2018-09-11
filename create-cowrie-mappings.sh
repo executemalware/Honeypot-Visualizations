@@ -8,14 +8,15 @@ curl -XPUT 'localhost:9200/cowrie?pretty' -H 'Content-Type: application/json' -d
      },
    "mappings": {
 	"cowrieevents" : {
-			"properties" : {
-     			   "eventid" : { "type" : "text" },
-			   "timestamp" : { 
-					"type" : "date", 
-					"format" : "date_time" 
-                                         }
-			              }
-		         }
-                }
+		"properties" : {
+     		   	"eventid" : { "type" : "text" },
+		   	"timestamp" : { 
+				"type" : "date", 
+				"format" : "date_time" 
+               		},
+               		"src_ip" : { "type" : "ip" }
+		}
+	}
+    }
 }
 '
